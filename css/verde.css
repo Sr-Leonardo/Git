@@ -1,0 +1,27 @@
+
+body{
+    background: url('../img/Fondo.jpg');
+    font-family: 'Lato';
+    background-attachment: fixed;
+}
+
+#logo{
+    background-color: #579047;
+}
+
+#menu ul li:hover{
+    background-color: #579047;
+}
+
+.boton-mas{
+    background-color: #579047;
+}
+
+
+form input[type="submit"]{
+    background-color: #579047;
+}
+
+form input[type="submit"]:hover{
+    background-color: #6DAE4D;
+}

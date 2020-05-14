@@ -1,0 +1,27 @@
+
+body{
+    background: url('../img/noche.jpg');
+    font-family: 'Lato';
+    background-attachment: fixed;
+}
+
+#logo{
+    background-color: #477D90;
+}
+
+#menu ul li:hover{
+    background-color: #477D90;
+}
+
+.boton-mas{
+    background-color: #477D90;
+}
+
+
+form input[type="submit"]{
+    background-color: #477D90;
+}
+
+form input[type="submit"]:hover{
+    background-color: #2D99E4;
+}

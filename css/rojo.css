@@ -1,0 +1,27 @@
+
+body{
+    background: url('../img/otoño.jpg');
+    font-family: 'Lato';
+    background-attachment: fixed;
+}
+
+#logo{
+    background-color: #CE301A;
+}
+
+#menu ul li:hover{
+    background-color: #CE301A;
+}
+
+.boton-mas{
+    background-color: #CE301A;
+}
+
+
+form input[type="submit"]{
+    background-color: #CE301A;
+}
+
+form input[type="submit"]:hover{
+    background-color: #E4432D;
+}

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Index Proyecto </title>
+    <link rel="stylesheet" type="text/css" href="../css/stlyes.css" />
+    <link id="tema" rel="stylesheet" type="text/css" href="../css/verde.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato&display=swap" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+</head>
+
+<body>
+    <div id="cambiar-tema">
+        <div id="verde"></div>
+        <div id="rojo"></div>
+        <div id="azul"></div>
+    </div>
+    <section id="global">
+        <header>
+            <!-- Logo -->
+            <div id="logo">
+                Proyecto con JS
+            </div>
+            <div class="clearFix">
+
+            </div>
+            <!-- Nav Bar -->
+            <nav id="menu">
+                <ul>
+                    <li><a href="../index.html"> INICIO </a></li>
+                    <li><a href="reloj.html"> RELOJ </a></li>
+                    <li><a href="sobreMi.html"> SOBRE MI </a></li>
+                    <li><a href="#"> CONTACTO </a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Contenido -->
+        <section id="content">
+            <!-- Reloj -->
+            <div id="formu-contact">
+                <form id="Re" onsubmit="return false;">
+                    <h4> Contacto </h4>
+                    <hr>
+                    <div>
+                        <label for="nombre"> Nombre
+                        </label>
+                        <input type="text" id="nombre" data-validation="alphanumeric"/>
+                    </div>
+                    <div>
+                        <label for="apellido"> Apellido </label>
+                        <input type="text" id="apellido" data-validation="alphanumeric"/>
+                    </div>
+                    <div>
+                        <label for="correo"> Email </label>
+                        <input type="email" id="correo" data-validation="email"/>
+                    </div>
+                    <div>
+                        <label> Sexo </label>
+                        <select id="genero" data-validation="required">
+                            <option value="Masculino"> Masculino</option>
+                            <option value="Femenino"> Femenino </option>
+                        </select>
+                    </div>
+                    <div>
+                        <label> Fecha de Nacimiento </label>
+                        <input type="text" id="nombre"  data-validation="date" data-validation-format="dd/mm/yyyy"/>
+                    </div>
+                    <div>
+                        <label> Edad </label>
+                        <input type="number" id="nombre" data-validation-length="min18"/>
+                    </div>
+                    <input type="submit" id="registro" value="Entrar" />
+                </form>
+            </div>
+            <!-- SideBar -->
+            <aside id="sidebar">
+                <div id="info">
+                    <h4>¿Quien Soy?</h4>
+                    <img src="../img/img P.jpg" />
+                    <p> Hola, Registrate e Inicia Sesion :)</p>
+                    <hr>
+                    <div id="registro">
+                        <form id="Re" onsubmit="return false;">
+                            <h4> Registro </h4>
+                            <div>
+                                <div>
+                                    <label> Usuario </label>
+                                </div>
+                                <input type="text" id="usuR" />
+                            </div>
+
+                            <div>
+                                <div>
+                                    <label> Contraseña </label>
+                                </div>
+                                <input type="password" id="passR" />
+                            </div>
+
+                            <input type="submit" id="registro" value="Entrar" />
+                        </form>
+                    </div>
+                    <div id="login">
+                        <form id="Lg" onsubmit="return false;">
+                            <h4> Login </h4>
+                            <div>
+                                <div>
+                                    <label> Usuario </label>
+                                </div>
+                                <input type="text" id="usuL" />
+                            </div>
+
+                            <div>
+                                <div>
+                                    <label> Contraseña </label>
+                                </div>
+                                <input type="password" id="passL" />
+                            </div>
+
+                            <input type="submit" value="Entrar" />
+                            <p id="in"></p>
+                        </form>
+                    </div>
+                </div>
+            </aside>
+
+            <div class="clearFix">
+
+            </div>
+        </section>
+        <section id="espacio">
+        </section>
+    </section>
+    <footer>
+        Proyecto con Java Script ©
+        <a href="#" class="subir"> Volver Arriba </a>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"
+        integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/locale/es.js"
+        integrity="sha256-bETP3ndSBCorObibq37vsT+l/vwScuAc9LRJIQyb068=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
+    <script type="text/javaScript" src="../js/validacion.js"></script>
+</body>
+
+</html>
